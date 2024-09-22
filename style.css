@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(100, 100, 100);
+    color: white;
+    font-family: 'Abril Fatface';
+    font-size: 22px;
+    
+    
+}
+
+nav{
+    background-color: rgb(60, 60, 60);
+}
+
+.navbar{
+    justify-content: right;
+}
+
+.left{
+    font-size: 35px;
+}
+
+.startingsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+.startingsection div{
+    
+    width: 40%;
+    
+}
+
+.rightsection img{
+    width: 70%;
+    margin: 20px 0;
+}
+
+.leftsection
+{
+    margin: 100px 0;
+    font-size: 3rem;
+}
+
+.name{
+    color: rgb(10, 10, 10);
+    font-size: 4rem;
+
+}
+
+#element{
+    color: rgb(10, 10, 10);
+    font-size: 4rem;
+}
+
+.circular-image {
+    border-radius: 50%;
+    border: 2px solid #000; /* Adjust the border size and color as needed */
+    width: 70%; /* Adjust the size as needed */
+    height: 70%; /* Ensure the height and width are equal for a perfect circle */
+}
+
+.buttons{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.linkedin-button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 145, 255);
+    border: 2px solid #00a2ff; /* Green */
+  }
+
+
+#workexperience {
+   padding: 40px;
+    text-align: center;
+    max-width: 80vw;
+    margin: auto;
+}
+
+body hr{
+    background-color: white;
+    margin: 10px 80px;
+    height: 1.1px;
+}
+
+#workexperience h1{
+    color: #000;
+    margin-left: auto;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+ul.timeline p{
+    margin-left: 25px;
+}
+
+
+.para{
+    font-size: 15px;
+}
+
+.timeline h4{
+    color: bisque;
+}
+
+.timeline h5{
+    color:cyan
+}
+
+/* Footer container */
+footer {
+    background-color: rgb(60, 60, 60);
+    color: #fff; /* White text */
+    padding: 20px 0; /* Padding for top/bottom */
+    text-align: center; /* Center the text */
+    font-size: 14px; /* Adjust font size */
+  }
+  
+  /* Footer links */
+  footer a {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Spacing between links */
+    transition: color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  footer a:hover {
+    color: #1e90ff; /* Hover color for links */
+  }
+  
+  /* Social media icons container */
+  .footer-social-icons {
+    margin: 10px 0; /* Spacing around icons */
+  }
+  
+  .footer-social-icons a {
+    display: inline-block; /* Align icons horizontally */
+    margin: 0 10px; /* Spacing between icons */
+    font-size: 20px; /* Adjust size of the icons */
+  }
+  
+  footer .footer-social-icons a:hover {
+    color: #1e90ff; /* Hover color for icons */
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 600px) {
+    footer {
+      font-size: 12px; /* Adjust font size for mobile */
+    }
+  
+    .footer-social-icons a {
+      font-size: 18px; /* Adjust icon size for mobile */
+    }
+  }
+  
